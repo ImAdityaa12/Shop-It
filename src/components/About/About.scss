@@ -1,0 +1,13 @@
+@import "../../css-config/mixins.scss";
+.about-text{
+    padding: 40px 20px;
+    position: relative;
+    background-image: linear-gradient(to right, #8e2de2, #4e00e0);
+    font-size: 55px;
+    line-height: 2;
+    text-align: center;
+    color: white;
+    @include md{
+        height: calc(100vh - 80px);
+    }
+}
